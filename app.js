@@ -11,7 +11,6 @@ console.log(brokenDevice(3,8)); //-> 3 (-1, *2, *2)
 
 function brokenDevice(x, y) {
     let ans = 0;
-    if (y === x) return ans;
     // we will go backwards, from y to x
     while (y != x) {
         // console.log("y = ", y);
